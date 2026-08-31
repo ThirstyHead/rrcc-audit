@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-08-26T20:43:04.243Z",
+  "siteGenerated": "2026-08-31T12:32:35.919Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-rrcc.edu",
   "report": {
-    "generated": "2026-08-26T20:43:03.385Z",
+    "generated": "2026-08-31T12:32:34.971Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -276,27 +276,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -469,27 +451,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -538,27 +502,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "div > a[target=\"_blank\"]:nth-child(3)",
-              "div > a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -678,27 +624,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "div > a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -748,9 +676,27 @@
             "firstTargets": [
               "#main-content"
             ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag244",
+              "wcag412"
+            ],
+            "nodes": 4,
+            "firstTargets": [
+              ".content > div > a[target=\"_blank\"]:nth-child(1)",
+              "div > a[target=\"_blank\"]:nth-child(2)",
+              "a[target=\"_blank\"]:nth-child(3)",
+              "a[target=\"_blank\"]:nth-child(4)"
+            ]
           }
         ],
-        "violationTotal": 1,
+        "violationTotal": 5,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -800,27 +746,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -870,9 +798,27 @@
             "firstTargets": [
               "#main-content"
             ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag244",
+              "wcag412"
+            ],
+            "nodes": 4,
+            "firstTargets": [
+              "div > a[target=\"_blank\"]:nth-child(1)",
+              "a[target=\"_blank\"]:nth-child(2)",
+              "a[target=\"_blank\"]:nth-child(3)",
+              "a[target=\"_blank\"]:nth-child(4)"
+            ]
           }
         ],
-        "violationTotal": 1,
+        "violationTotal": 5,
         "incomplete": [
           {
             "id": "color-contrast",
@@ -910,27 +856,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -1119,9 +1047,27 @@
               ".button[href$=\"academic-calendar\"][data-uw-original-href$=\"academic-calendar\"] > .button-text",
               ".ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default"
             ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag244",
+              "wcag412"
+            ],
+            "nodes": 4,
+            "firstTargets": [
+              "div > a[target=\"_blank\"]:nth-child(1)",
+              "a[target=\"_blank\"]:nth-child(2)",
+              "a[target=\"_blank\"]:nth-child(3)",
+              "a[target=\"_blank\"]:nth-child(4)"
+            ]
           }
         ],
-        "violationTotal": 25,
+        "violationTotal": 29,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -1243,27 +1189,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -1366,27 +1294,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -1488,27 +1398,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -1558,27 +1450,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -1628,27 +1502,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -1699,27 +1555,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -1769,27 +1607,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -1839,27 +1659,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2004,27 +1806,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2188,27 +1972,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2258,27 +2024,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2328,27 +2076,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2399,27 +2129,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2469,27 +2181,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2539,27 +2233,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "div > a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2609,27 +2285,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2680,27 +2338,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2750,27 +2390,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -2845,27 +2467,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": []
       },
       {
@@ -2887,27 +2491,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": []
       },
       {
@@ -2929,27 +2515,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": []
       },
       {
@@ -3017,8 +2585,8 @@
             "nodes": 36,
             "firstTargets": [
               "h1",
-              "a[hreflang=\"en\"][data-uw-rm-brl=\"PR\"]",
-              "div[data-history-node-id=\"8934\"] > .group-left > .field--name-node-title.field--type-ds.field > h2 > a[hreflang=\"en\"]"
+              ".node--view-mode-featured > .field--name-node-title.field--type-ds.field > h2 > a[hreflang=\"en\"][data-uw-rm-brl=\"PR\"]",
+              "div[data-history-node-id=\"8934\"] > .group-left > .field--name-node-title.field--type-ds.field > h2 > a[hreflang=\"en\"][data-uw-rm-brl=\"PR\"]"
             ]
           }
         ]
@@ -3042,27 +2610,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -3112,27 +2662,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -3182,27 +2714,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -3252,27 +2766,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -3321,27 +2817,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "div > a[target=\"_blank\"]:nth-child(3)",
-              "div > a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -3391,27 +2869,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -3461,27 +2921,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "div > a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -3531,27 +2973,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              ".content > div > a[target=\"_blank\"]:nth-child(1)",
-              "a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
@@ -3601,27 +3025,9 @@
             "firstTargets": [
               "#main-content"
             ]
-          },
-          {
-            "id": "link-name",
-            "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag244",
-              "wcag412"
-            ],
-            "nodes": 4,
-            "firstTargets": [
-              "div > a[target=\"_blank\"]:nth-child(1)",
-              "div > a[target=\"_blank\"]:nth-child(2)",
-              "a[target=\"_blank\"]:nth-child(3)",
-              "a[target=\"_blank\"]:nth-child(4)"
-            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-prohibited-attr",
