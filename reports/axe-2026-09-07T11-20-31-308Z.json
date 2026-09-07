@@ -1,0 +1,3627 @@
+{
+  "generated": "2026-09-07T11:20:31.308Z",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "pages": [
+    {
+      "url": "https://rrcc.edu/",
+      "title": "Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/",
+      "slug": "home",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "#homepage-intro"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            "#slick-slide01 > .slide__content > .slide__caption > .slide__description > .views-field-nothing.views-field > .field-content > .views-field-body.views-field > .field-content > p",
+            "h2[role=\"heading\"] > a[hreflang=\"en\"][data-uw-rm-brl=\"PR\"]",
+            "div[data-history-node-id=\"8958\"] > .group-left > .field--name-node-title.field--type-ds.field--label-hidden > h2[data-uw-rm-heading=\"prs\"] > a[hreflang=\"en\"][data-uw-rm-brl=\"PR\"]"
+          ]
+        },
+        {
+          "id": "video-caption",
+          "impact": "critical",
+          "help": "<video> elements must have captions",
+          "wcag": [
+            "wcag2a",
+            "wcag122"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "video"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/about-us",
+      "title": "About Us | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/about-us",
+      "slug": "about-us",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "#land\\ acknowledgment"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/about/campuses",
+      "title": "Our Two Campuses | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/about/campuses",
+      "slug": "about-campuses",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "#campus-tours"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/about/strategic-plan",
+      "title": "Strategic Plan | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/about/strategic-plan",
+      "slug": "about-strategic-plan",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/academic-calendar",
+      "title": "Academic Calendar | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/academic-calendar",
+      "slug": "academic-calendar",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 63,
+          "firstTargets": [
+            ".field--name-title",
+            "p > span:nth-child(1)",
+            "a[data-entity-substitution=\"file\"] > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/academic-programs",
+      "title": "Explore Programs Available at RRCC | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/academic-programs",
+      "slug": "academic-programs",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 64,
+          "firstTargets": [
+            ".field--name-title",
+            ".text-formatted > p",
+            "#edit-interest--2"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/academics/class-modalities",
+      "title": "Class Modalities | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/academics/class-modalities",
+      "slug": "academics-class-modalities",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/accessibility-resources",
+      "title": "Accessibility Resources | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/accessibility-resources",
+      "slug": "accessibility-resources",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".field--name-title"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/accessibility-services",
+      "title": "Accessibility Services | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/accessibility-services",
+      "slug": "accessibility-services",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/accreditation",
+      "title": "Accreditation | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/accreditation",
+      "slug": "accreditation",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            "p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/admissions/prior-learning-assessment-pla",
+      "title": "Prior Learning Assessment (PLA) | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/admissions/prior-learning-assessment-pla",
+      "slug": "admissions-prior-learning-assessment-pla",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "div > a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 4,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/advising",
+      "title": "Advising | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/advising",
+      "slug": "advising",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "a[href$=\"transfer-student\"]",
+            ".paragraph-id-11487 > .paragraph-inner > .text-col > .cta-buttons > .field--name-field-paragraph-cta-link2.field--type-link.field__item > .btn-outline-primary.btn[type=\"button\"]"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 7,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/alumni-relations",
+      "title": "Alumni Relations | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/alumni-relations",
+      "slug": "alumni-relations",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            "p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/apply",
+      "title": "Apply Now To Red Rocks Community College | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/apply",
+      "slug": "apply",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 17,
+          "firstTargets": [
+            "h2[aria-level=\"1\"]",
+            "a[href$=\"new-student\"]",
+            "a[href$=\"returning-student\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/audio-visual-services",
+      "title": "Audio/Visual Services | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/audio-visual-services",
+      "slug": "audio-visual-services",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 4,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".field--name-title"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/behavioral-health-services",
+      "title": "Behavioral Health Services | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/behavioral-health-services",
+      "slug": "behavioral-health-services",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/business-services",
+      "title": "Business Services | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/business-services",
+      "slug": "business-services",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/calendar",
+      "title": "Events Calendar | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/calendar",
+      "slug": "calendar",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 23,
+          "firstTargets": [
+            "a[href$=\"rrcc.presence.io\"] > .button-text",
+            "a[href$=\"day\"] > .button-text",
+            "div:nth-child(3) > .button.solid[data-uw-original-href$=\"calendar\"] > .button-text",
+            ".button[href$=\"academic-calendar\"][data-uw-original-href$=\"academic-calendar\"] > .button-text",
+            "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 28,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 23,
+          "firstTargets": [
+            ".field--name-title",
+            ".text-formatted > p",
+            "a[href=\"/calendar/month/202608\"] > span:nth-child(2)"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/calendar/event/041126/student-affairs-extended-hours",
+      "title": "Student Affairs Extended Hours | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/calendar/event/041126/student-affairs-extended-hours",
+      "slug": "calendar-event-041126-student-affairs-extended-hours",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 23,
+          "firstTargets": [
+            "a[href$=\"rrcc.presence.io\"] > .button-text",
+            "a[href$=\"day\"] > .button-text",
+            "div:nth-child(3) > .button[href$=\"calendar\"][data-uw-original-href$=\"calendar\"] > .button-text",
+            ".button[href$=\"academic-calendar\"][data-uw-original-href$=\"academic-calendar\"] > .button-text",
+            "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default"
+          ]
+        }
+      ],
+      "violationTotal": 24,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p",
+            "tr:nth-child(1) > .ui-datepicker-unselectable.ui-state-disabled:nth-child(3) > .ui-state-default"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/campus-police",
+      "title": "Campus Police | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/campus-police",
+      "slug": "campus-police",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            "p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/care-team",
+      "title": "CARE Team | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/care-team",
+      "slug": "care-team",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "div > a[target=\"_blank\"]:nth-child(3)",
+            "div > a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/career-success-center",
+      "title": "Career Success Center | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/career-success-center",
+      "slug": "career-success-center",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/childrens-center",
+      "title": "The Children's Center | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/childrens-center",
+      "slug": "childrens-center",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/costs-aid/cost-attendance",
+      "title": "Cost of Attendance | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/costs-aid/cost-attendance",
+      "slug": "costs-aid-cost-attendance",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/costs-aid/tuition-rates",
+      "title": "Tuition Rates | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/costs-aid/tuition-rates",
+      "slug": "costs-aid-tuition-rates",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/directory",
+      "title": "Directory | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/directory",
+      "slug": "directory",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 269,
+          "firstTargets": [
+            ".field--name-title",
+            ".text-formatted > p",
+            "#edit-program--2"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/disclaimers-and-legal-notices",
+      "title": "Disclaimers and Legal Notices | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/disclaimers-and-legal-notices",
+      "slug": "disclaimers-and-legal-notices",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/diversity-equity-inclusion-belonging-and-accessibility-deiba",
+      "title": "Diversity, Equity, Inclusion, Belonging, and Accessibility (DEIBA) | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/diversity-equity-inclusion-belonging-and-accessibility-deiba",
+      "slug": "diversity-equity-inclusion-belonging-and-accessibility-deiba",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/facilities",
+      "title": "Facilities | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/facilities",
+      "slug": "facilities",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/fin-aid/scholarships",
+      "title": "Scholarships | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/fin-aid/scholarships",
+      "slug": "fin-aid-scholarships",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": []
+    },
+    {
+      "url": "https://rrcc.edu/financial-aid",
+      "title": "Financial Aid | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/financial-aid",
+      "slug": "financial-aid",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p",
+            ".text-link:nth-child(1) > .field--name-field-paragraph-cta-link.field--type-link[data-once=\"clickthru\"] > .btn.btn-link[type=\"button\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/food-services",
+      "title": "Food Services | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/food-services",
+      "slug": "food-services",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/foundation",
+      "title": "Foundation | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/foundation",
+      "slug": "foundation",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"560\"] .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "iframe[width=\"560\"] #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"560\"] .ytmVideoInfoChannelAvatar"
+          ]
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"560\"]"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 9,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span",
+            ".paragraph-id-12541 > .layout-inner > .section-title > .field--name-field-paragraph-html-title.field--type-text.text-formatted > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/gateway",
+      "title": "Gateway | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/gateway",
+      "slug": "gateway",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/high-school-relations",
+      "title": "High School Relations | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/high-school-relations",
+      "slug": "high-school-relations",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/honors-program",
+      "title": "Honors Program | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/honors-program",
+      "slug": "honors-program",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span",
+            ".cta-buttons > .field--name-field-paragraph-cta-link.field--type-link[data-once=\"clickthru\"] > .btn.btn-link[type=\"button\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/human-resources",
+      "title": "Human Resources | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/human-resources",
+      "slug": "human-resources",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/information-technology-services",
+      "title": "Information Technology Services | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/information-technology-services",
+      "slug": "information-technology-services",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/instructional-technology",
+      "title": "Instructional Technology | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/instructional-technology",
+      "slug": "instructional-technology",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "div > a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/learning-commons",
+      "title": "The Learning Commons | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/learning-commons",
+      "slug": "learning-commons",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/library-services",
+      "title": "Library Services | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/library-services",
+      "slug": "library-services",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/news",
+      "title": "News and Media | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/news",
+      "slug": "news",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            "h1",
+            ".node--view-mode-featured > .field--name-node-title.field--type-ds.field > h2 > a[hreflang=\"en\"][data-uw-rm-brl=\"PR\"]",
+            "div[data-history-node-id=\"8958\"] > .group-left > .field--name-node-title.field--type-ds.field > h2 > a[hreflang=\"en\"][data-uw-rm-brl=\"PR\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/news/071526/colorados-aerospace-industry-booming-rrcc-making-sure-students-are-ready-it",
+      "title": "Colorado's Aerospace Industry Is Booming. RRCC Is Making Sure Students Are Ready for It. | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/news/071526/colorados-aerospace-industry-booming-rrcc-making-sure-students-are-ready-it",
+      "slug": "news-071526-colorados-aerospace-industry-booming-rrcc-making-sure-students-are-ready-it",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".field--name-field-paragraph-eyebrow"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": []
+    },
+    {
+      "url": "https://rrcc.edu/news/073126/students-new-mural-painting-course-will-beautify-campus-while-learning-valuable-skills",
+      "title": "Students in New Mural Painting Course will Beautify Campus While Learning Valuable Skills | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/news/073126/students-new-mural-painting-course-will-beautify-campus-while-learning-valuable-skills",
+      "slug": "news-073126-students-new-mural-painting-course-will-beautify-campus-while-learning-valuable-skills",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".field--name-field-paragraph-eyebrow"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": []
+    },
+    {
+      "url": "https://rrcc.edu/news/080526/students-rrcc-will-have-expanded-scholarship-access",
+      "title": "Students at RRCC will have expanded scholarship access | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/news/080526/students-rrcc-will-have-expanded-scholarship-access",
+      "slug": "news-080526-students-rrcc-will-have-expanded-scholarship-access",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".field--name-field-paragraph-eyebrow"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": []
+    },
+    {
+      "url": "https://rrcc.edu/news/081226/famous-mexican-sculptor-wanted-students-stumble-upon-his-art-rrcc-they-will",
+      "title": "A Famous Mexican Sculptor Wanted Students to Stumble Upon His Art. At RRCC, They Will. | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/news/081226/famous-mexican-sculptor-wanted-students-stumble-upon-his-art-rrcc-they-will",
+      "slug": "news-081226-famous-mexican-sculptor-wanted-students-stumble-upon-his-art-rrcc-they-will",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".field--name-field-paragraph-eyebrow"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": []
+    },
+    {
+      "url": "https://rrcc.edu/news/all-rrcc-news",
+      "title": "All Red Rocks Community College News | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/news/all-rrcc-news",
+      "slug": "news-all-rrcc-news",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 38,
+          "firstTargets": [
+            "h1",
+            "a[hreflang=\"en\"][data-uw-rm-brl=\"PR\"]",
+            "div[data-history-node-id=\"8958\"] > .group-left > .field--name-node-title.field--type-ds.field > h2 > a[hreflang=\"en\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/nondiscrimination-title-ix",
+      "title": "Nondiscrimination - Title IX | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/nondiscrimination-title-ix",
+      "slug": "nondiscrimination-title-ix",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/office-president",
+      "title": "Office of the President | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/office-president",
+      "slug": "office-president",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/policies-and-procedures",
+      "title": "Policies and Procedures | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/policies-and-procedures",
+      "slug": "policies-and-procedures",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "div > a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "h1",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/schedule-and-catalog",
+      "title": "Schedule and Catalog | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/schedule-and-catalog",
+      "slug": "schedule-and-catalog",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".field--name-title"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/school-age-child-care",
+      "title": "School-Age Child Care | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/school-age-child-care",
+      "slug": "school-age-child-care",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/student-affairs",
+      "title": "Student Affairs | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/student-affairs",
+      "slug": "student-affairs",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            "p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/student-life",
+      "title": "Student Life | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/student-life",
+      "slug": "student-life",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/student-recreation-center",
+      "title": "Student Recreation Center | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/student-recreation-center",
+      "slug": "student-recreation-center",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/trio-student-support-services",
+      "title": "TRIO Student Support Services | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/trio-student-support-services",
+      "slug": "trio-student-support-services",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://rrcc.edu/workforce-services",
+      "title": "Workforce Services | Red Rocks Community College",
+      "finalUrl": "https://www.rrcc.edu/workforce-services",
+      "slug": "workforce-services",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".content > div > a[target=\"_blank\"]:nth-child(1)",
+            "a[target=\"_blank\"]:nth-child(2)",
+            "a[target=\"_blank\"]:nth-child(3)",
+            "a[target=\"_blank\"]:nth-child(4)"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".department-header"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".field--name-title",
+            ".field--name-field-formatted-subtitle > p"
+          ]
+        }
+      ]
+    }
+  ],
+  "pagesHtml": {
+    "https://rrcc.edu/": "pages/home.html",
+    "https://rrcc.edu/about-us": "pages/about-us.html",
+    "https://rrcc.edu/about/campuses": "pages/about-campuses.html",
+    "https://rrcc.edu/about/strategic-plan": "pages/about-strategic-plan.html",
+    "https://rrcc.edu/academic-calendar": "pages/academic-calendar.html",
+    "https://rrcc.edu/academic-programs": "pages/academic-programs.html",
+    "https://rrcc.edu/academics/class-modalities": "pages/academics-class-modalities.html",
+    "https://rrcc.edu/accessibility-resources": "pages/accessibility-resources.html",
+    "https://rrcc.edu/accessibility-services": "pages/accessibility-services.html",
+    "https://rrcc.edu/accreditation": "pages/accreditation.html",
+    "https://rrcc.edu/admissions/prior-learning-assessment-pla": "pages/admissions-prior-learning-assessment-pla.html",
+    "https://rrcc.edu/advising": "pages/advising.html",
+    "https://rrcc.edu/alumni-relations": "pages/alumni-relations.html",
+    "https://rrcc.edu/apply": "pages/apply.html",
+    "https://rrcc.edu/audio-visual-services": "pages/audio-visual-services.html",
+    "https://rrcc.edu/behavioral-health-services": "pages/behavioral-health-services.html",
+    "https://rrcc.edu/business-services": "pages/business-services.html",
+    "https://rrcc.edu/calendar": "pages/calendar.html",
+    "https://rrcc.edu/calendar/event/041126/student-affairs-extended-hours": "pages/calendar-event-041126-student-affairs-extended-hours.html",
+    "https://rrcc.edu/campus-police": "pages/campus-police.html",
+    "https://rrcc.edu/care-team": "pages/care-team.html",
+    "https://rrcc.edu/career-success-center": "pages/career-success-center.html",
+    "https://rrcc.edu/childrens-center": "pages/childrens-center.html",
+    "https://rrcc.edu/costs-aid/cost-attendance": "pages/costs-aid-cost-attendance.html",
+    "https://rrcc.edu/costs-aid/tuition-rates": "pages/costs-aid-tuition-rates.html",
+    "https://rrcc.edu/directory": "pages/directory.html",
+    "https://rrcc.edu/disclaimers-and-legal-notices": "pages/disclaimers-and-legal-notices.html",
+    "https://rrcc.edu/diversity-equity-inclusion-belonging-and-accessibility-deiba": "pages/diversity-equity-inclusion-belonging-and-accessibility-deiba.html",
+    "https://rrcc.edu/facilities": "pages/facilities.html",
+    "https://rrcc.edu/fin-aid/scholarships": "pages/fin-aid-scholarships.html",
+    "https://rrcc.edu/financial-aid": "pages/financial-aid.html",
+    "https://rrcc.edu/food-services": "pages/food-services.html",
+    "https://rrcc.edu/foundation": "pages/foundation.html",
+    "https://rrcc.edu/gateway": "pages/gateway.html",
+    "https://rrcc.edu/high-school-relations": "pages/high-school-relations.html",
+    "https://rrcc.edu/honors-program": "pages/honors-program.html",
+    "https://rrcc.edu/human-resources": "pages/human-resources.html",
+    "https://rrcc.edu/information-technology-services": "pages/information-technology-services.html",
+    "https://rrcc.edu/instructional-technology": "pages/instructional-technology.html",
+    "https://rrcc.edu/learning-commons": "pages/learning-commons.html",
+    "https://rrcc.edu/library-services": "pages/library-services.html",
+    "https://rrcc.edu/news": "pages/news.html",
+    "https://rrcc.edu/news/071526/colorados-aerospace-industry-booming-rrcc-making-sure-students-are-ready-it": "pages/news-071526-colorados-aerospace-industry-booming-rrcc-making-sure-students-are-ready-it.html",
+    "https://rrcc.edu/news/073126/students-new-mural-painting-course-will-beautify-campus-while-learning-valuable-skills": "pages/news-073126-students-new-mural-painting-course-will-beautify-campus-while-learning-valuable-skills.html",
+    "https://rrcc.edu/news/080526/students-rrcc-will-have-expanded-scholarship-access": "pages/news-080526-students-rrcc-will-have-expanded-scholarship-access.html",
+    "https://rrcc.edu/news/081226/famous-mexican-sculptor-wanted-students-stumble-upon-his-art-rrcc-they-will": "pages/news-081226-famous-mexican-sculptor-wanted-students-stumble-upon-his-art-rrcc-they-will.html",
+    "https://rrcc.edu/news/all-rrcc-news": "pages/news-all-rrcc-news.html",
+    "https://rrcc.edu/nondiscrimination-title-ix": "pages/nondiscrimination-title-ix.html",
+    "https://rrcc.edu/office-president": "pages/office-president.html",
+    "https://rrcc.edu/policies-and-procedures": "pages/policies-and-procedures.html",
+    "https://rrcc.edu/schedule-and-catalog": "pages/schedule-and-catalog.html",
+    "https://rrcc.edu/school-age-child-care": "pages/school-age-child-care.html",
+    "https://rrcc.edu/student-affairs": "pages/student-affairs.html",
+    "https://rrcc.edu/student-life": "pages/student-life.html",
+    "https://rrcc.edu/student-recreation-center": "pages/student-recreation-center.html",
+    "https://rrcc.edu/trio-student-support-services": "pages/trio-student-support-services.html",
+    "https://rrcc.edu/workforce-services": "pages/workforce-services.html"
+  }
+}
