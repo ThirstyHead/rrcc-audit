@@ -103,7 +103,7 @@
                     <br />
                 </div>
             </div>
-            <h2>axe-core found <span class="badge badge-warning">5</span> violations</h2>
+            <h2>axe-core found <span class="badge badge-warning">1</span> violation</h2>
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
@@ -123,14 +123,6 @@
                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
                         <td>serious</td>
                         <td>1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><a href="#2" class="card-link">2</a></th>
-                        <td>Links must have discernible text</td>
-                        <td>link-name</td>
-                        <td>WCAG 2 Level A, WCAG 2.4.4, WCAG 4.1.2</td>
-                        <td>serious</td>
-                        <td>4</td>
                     </tr>
                 </tbody>
             </table>
@@ -212,184 +204,6 @@
                     </div>
                 </div>
             </div>
-            <div class="card violationCard">
-                <div class="card-body">
-                    <div class="violationCardLine">
-                        <p class="card-title">
-                            <a id="2">2.</a> Links must have discernible text
-                        </p>
-                        <a
-                            href="https:&#x2F;&#x2F;dequeuniversity.com&#x2F;rules&#x2F;axe&#x2F;4.13&#x2F;link-name?application&#x3D;playwright"
-                            target="_blank"
-                            class="card-link violationCardTitleItem learnMore"
-                            >Learn more</a
-                        >
-                    </div>
-                    <div class="violationCardLine">
-                        <p class="card-subtitle mb-2 text-muted">link-name</p>
-                        <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
-                            WCAG 2 Level A, WCAG 2.4.4, WCAG 4.1.2
-                        </p>
-                    </div>
-                    <div class="violationCardLine">
-                        <p class="card-text">Ensure links have discernible text</p>
-                        <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
-                            serious
-                        </p>
-                    </div>
-                    <div class="violationCardLine">
-                        <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
-                            Issue Tags: 
-                            <span class="badge bg-light text-dark"> cat.name-role-value </span>
-
-                            <span class="badge bg-light text-dark"> wcag2a </span>
-
-                            <span class="badge bg-light text-dark"> wcag244 </span>
-
-                            <span class="badge bg-light text-dark"> wcag412 </span>
-
-                            <span class="badge bg-light text-dark"> section508 </span>
-
-                            <span class="badge bg-light text-dark"> section508.22.a </span>
-
-                            <span class="badge bg-light text-dark"> TTv5 </span>
-
-                            <span class="badge bg-light text-dark"> TT6.a </span>
-
-                            <span class="badge bg-light text-dark"> EN-301-549 </span>
-
-                            <span class="badge bg-light text-dark"> EN-9.2.4.4 </span>
-
-                            <span class="badge bg-light text-dark"> EN-9.4.1.2 </span>
-
-                            <span class="badge bg-light text-dark"> ACT </span>
-
-                            <span class="badge bg-light text-dark"> RGAAv4 </span>
-
-                            <span class="badge bg-light text-dark"> RGAA-6.2.1 </span>
-                        </p>
-                    </div>
-                    <div class="violationNode">
-                        <table class="table table-sm table-bordered">
-                            <thead>
-                                <tr>
-                                    <th style="width: 2%">#</th>
-                                    <th style="width: 49%">Issue Description</th>
-                                    <th style="width: 49%">
-                                        To solve this violation, you need to...
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>
-                                        <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">.content &gt; div &gt; a[target&#x3D;&quot;_blank&quot;]:nth-child(1)</code></pre>
-                                        <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;rrccfoxes&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;i class&#x3D;&quot;fab fa-facebook&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;</code></pre>
-                                    </td>
-                                    <td>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix all of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element is in tab order and does not have accessible text</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix any of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element does not have text that is visible to screen readers</li>
-                                                <li>  aria-label attribute does not exist or is empty</li>
-                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-                                                <li>  Element has no title attribute</li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>
-                                        <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">a[target&#x3D;&quot;_blank&quot;]:nth-child(2)</code></pre>
-                                        <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.instagram.com&#x2F;rrccfoxes&#x2F;#&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;i class&#x3D;&quot;fab fa-instagram&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;</code></pre>
-                                    </td>
-                                    <td>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix all of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element is in tab order and does not have accessible text</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix any of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element does not have text that is visible to screen readers</li>
-                                                <li>  aria-label attribute does not exist or is empty</li>
-                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-                                                <li>  Element has no title attribute</li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>
-                                        <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">a[target&#x3D;&quot;_blank&quot;]:nth-child(3)</code></pre>
-                                        <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;school&#x2F;rrccfoxes&#x2F;&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;i class&#x3D;&quot;fab fa-linkedin&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;</code></pre>
-                                    </td>
-                                    <td>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix all of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element is in tab order and does not have accessible text</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix any of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element does not have text that is visible to screen readers</li>
-                                                <li>  aria-label attribute does not exist or is empty</li>
-                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-                                                <li>  Element has no title attribute</li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>
-                                        <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">a[target&#x3D;&quot;_blank&quot;]:nth-child(4)</code></pre>
-                                        <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;user&#x2F;@rrccfoxes&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;i class&#x3D;&quot;fab fa-youtube&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;</code></pre>
-                                    </td>
-                                    <td>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix all of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element is in tab order and does not have accessible text</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix any of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element does not have text that is visible to screen readers</li>
-                                                <li>  aria-label attribute does not exist or is empty</li>
-                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-                                                <li>  Element has no title attribute</li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
             <div id="accordionPasses">
                 <div class="card">
                     <div class="card-header" id="headingOne">
@@ -430,7 +244,7 @@
                                         <td>Elements must only use supported ARIA attributes</td>
                                         <td>aria-allowed-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>17</td>
+                                        <td>37</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
@@ -444,14 +258,14 @@
                                         <td>ARIA attributes must be used as specified for the element&#39;s role</td>
                                         <td>aria-conditional-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>17</td>
+                                        <td>37</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">4</th>
                                         <td>Deprecated ARIA roles must not be used</td>
                                         <td>aria-deprecated-role</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>12</td>
+                                        <td>15</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">5</th>
@@ -465,42 +279,42 @@
                                         <td>ARIA hidden element must not be focusable or contain focusable elements</td>
                                         <td>aria-hidden-focus</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>16</td>
+                                        <td>17</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">7</th>
                                         <td>Elements must only use permitted ARIA attributes</td>
                                         <td>aria-prohibited-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>15</td>
+                                        <td>35</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">8</th>
                                         <td>Required ARIA attributes must be provided</td>
                                         <td>aria-required-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>12</td>
+                                        <td>15</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">9</th>
                                         <td>ARIA roles used must conform to valid values</td>
                                         <td>aria-roles</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>12</td>
+                                        <td>15</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">10</th>
                                         <td>ARIA attributes must conform to valid values</td>
                                         <td>aria-valid-attr-value</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>17</td>
+                                        <td>37</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">11</th>
                                         <td>ARIA attributes must conform to valid names</td>
                                         <td>aria-valid-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>17</td>
+                                        <td>37</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12</th>
@@ -514,7 +328,7 @@
                                         <td>Buttons must have discernible text</td>
                                         <td>button-name</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>6</td>
+                                        <td>8</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">14</th>
@@ -528,7 +342,7 @@
                                         <td>Elements must meet minimum color contrast ratio thresholds</td>
                                         <td>color-contrast</td>
                                         <td>WCAG 2 Level AA, WCAG 1.4.3</td>
-                                        <td>53</td>
+                                        <td>54</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">16</th>
@@ -577,7 +391,7 @@
                                         <td>Links must have discernible text</td>
                                         <td>link-name</td>
                                         <td>WCAG 2 Level A, WCAG 2.4.4, WCAG 4.1.2</td>
-                                        <td>40</td>
+                                        <td>44</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">23</th>
@@ -605,7 +419,7 @@
                                         <td>Interactive controls must not be nested</td>
                                         <td>nested-interactive</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>16</td>
+                                        <td>18</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">27</th>
